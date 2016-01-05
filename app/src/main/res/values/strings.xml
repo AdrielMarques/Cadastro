@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cadastro</string>
+    <!--Login-->
+    <string name="login_txtUsuario">Login</string>
+    <string name="login_txtSenha">name</string>
+    <string name="login_btnEntrar">ok</string>
+
+    <!--Validacoes-->
+
+    <string name="login_valUsuario">Usuário obrigatório</string>
+    <string name="login_valSenha">Senha obrigatório</string>
+</resources>
