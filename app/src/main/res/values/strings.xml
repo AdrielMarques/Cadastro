@@ -2,7 +2,7 @@
     <string name="app_name">Cadastro</string>
     <!--Login-->
     <string name="login_txtUsuario">Login</string>
-    <string name="login_txtSenha">name</string>
+    <string name="login_txtSenha">Senha</string>
     <string name="login_btnEntrar">ok</string>
 
     <!--Validacoes-->
