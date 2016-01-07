@@ -1,7 +1,8 @@
 package com.example.adriel.cadastro.Atividades;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
@@ -20,24 +21,24 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void logar(View view){
+    public void logar(View v) {
         String usuario = edtUsuario.getText().toString();
         String senha = edtSenha.getText().toString();
 
         boolean validacao = true;
 
-        if (usuario == null || usuario.equals("")){
+        if (usuario == null || usuario.equals("")) {
             validacao = false;
             edtUsuario.setError(getString(R.string.login_txtUsuario));
         }
 
-        if (senha == null || usuario.equals("")){
+        if (senha == null || usuario.equals("")) {
             validacao = false;
             edtSenha.setError(getString(R.string.login_valSenha));
         }
 
-        if(validacao){
-
+        if (validacao) {
+            startActivity(new Intent(this, CadUsuarioActvity.class));
         }
     }
 

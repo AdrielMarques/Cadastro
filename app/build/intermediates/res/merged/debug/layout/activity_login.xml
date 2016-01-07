@@ -4,7 +4,8 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".LoginActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".LoginActivity"
+    android:orientation="vertical">
 
     <TextView
         android:text="@string/login_txtUsuario"
@@ -28,7 +29,8 @@
     <Button
         android:text="@string/login_btnEntrar"
         android:id="@+id/btnOk"
+        android:onClick="logar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
-<!-- From: file:/home/adriel/AndroidStudioProjects/CadastroProduto/app/src/main/res/layout/activity_login.xml -->
+<!-- From: file:/home/lacroiix/AndroidStudioProjects/Adriel_Help_Facul/app/src/main/res/layout/activity_login.xml -->
